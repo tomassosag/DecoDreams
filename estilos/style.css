@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: lightskyblue;
+    height: 155px;
+    padding: 20px; 
+    max-width: 100%;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 185px;
+    height: 185px;
+    margin-top: 10px;
+
+}
+
+body main{
+    background-image: url(../img/layered-waves-haikei.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}   
+
+h1{
+    border: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+h2{
+    padding-left: 10px;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+#titulo{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.nuestros{
+    color: black;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.algunos{
+    color: black;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: x-large;
+    list-style-type: square;
+}
+
+.valorados{
+    color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: large;
+    list-style-type: square;
+}
+
+.productos{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+nav ul li{
+   display: inline-block;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    
+}
+
+.section_ul{
+    margin-right: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.informacion{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    font-size: larger
+}
+
+.elFooter{
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+.parrafito{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.videito{
+    padding-left: 10px;
+}
+
+figcaption{
+    padding-left: 10px;
+}
+   
+.iconosBox{
+    display: flex;
+}
+
+.iconosFooter{
+padding: 5px;
+max-width: 100%;
+height: 30px;
+}
+
+.abuelo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "header header header header" 
+    "galeria galeria galeria galeria"
+    "footer footer footer footer";
+}
+
+.header{
+    grid-area: header;
+}
+
+.galeria-grid{
+    grid-area: galeria;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-color: lightskyblue;
+    padding: 20px;
+    width: 100%;
+}
+
+.delaGaleria{
+    display: grid;
+    border: 5px solid black;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 80%;
+    justify-content: space-between;
+    transition: width 1s, height 1s;
+}
+
+.delaGaleria:hover{
+  width: 480px;
+  height: 480px;
+}
+
+.hijo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.elh2Degaleria{
+    display: grid;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    margin-right: 9.2%;
+}
+
+.imagenes_galeria{
+    width: 500px;
+    height: 500px;
+}
+
+.footito{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: double;
+    width: 100%;
+}
+
+.diseño{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.imagenindex{
+    border: 2px solid wheat;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.secciondeProductos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.sucursales{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.queHacemos{
+    display: flex;
+    border: 5px solid lightblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 900px;
+    height: 450px;
+
+}
+
+.horario{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.mapa{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.infodeProductos{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    color: grey;
+    margin-left: 10px;
+}
+
+.iconosproductos{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    
+}
+
+.sobrenosotros{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deconosotros{
+   border: solid lightskyblue;
+}
+
+.grid-container{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.contenedorpadre{  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+  
+
+.imgProducts{
+    width: 300px;
+    height: 300px;
+    border: 3px solid lightseagreen;
+}
+
+.descripcionP{
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+@media (min-width:720px){
+    .contenedorpadre{  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+
+}
+
+@media (min-width:1366px){
+    .contenedorpadre{  
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width:1440px){
+    .contenedorpadre{  
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+}
+
+@media (min-width:360px){
+    .hijo{  
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .elh2Degaleria{
+        align-items: flex-end;
+    }
+}
+
+
+@media (min-width:720px){
+    .hijo{  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .elh2Degaleria{
+        align-items: flex-end;
+    }
+}
+
+@media (min-width:1366px){
+    .hijo{  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width:1558px){
+    .hijo{  
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+
