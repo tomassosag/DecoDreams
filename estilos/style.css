@@ -102,7 +102,6 @@ body main{
 .valorados{
     color: black;
     margin-top: 10px;
-    margin-left: 25px;
     font-size: large;
     list-style-type: square;
 }
@@ -162,7 +161,7 @@ figcaption{
 .abuelo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
     grid-template-areas: "header header header header" 
     "galeria galeria galeria galeria"
     "footer footer footer footer";
@@ -215,7 +214,8 @@ figcaption{
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
-    margin-right: 9.2%;
+    margin-right: 9%;
+    margin-bottom: 2rem;
 }
 
 .imagenes_galeria{
