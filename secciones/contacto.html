@@ -36,49 +36,85 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./sucursales.html" >Sucursales</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
+                  </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-</section>
-<!-- formulario de contacto -->
+
 <main>
-<section>
-    <article>
-        <form action="#">
-            <div><p>Como es tu nombre? </p> 
-            </div>
-            <input type="text" placeholder="NOMBRE"><br>
-            <label for="email">Decime tu email:
-                <input type="email" placeholder="aaa@gmail.com" name="email"><br>
-            </label>
-            <label for="Información Adicional"> Información Adicional:<br>
-                <textarea placeholder="Información Adicional"></textarea>
-            </label> <br>
-            <input type="number" placeholder="EDAD"><br>
-            <div><p>Elegí un color:</p>
-                <div>Rojo
-                    <input type="radio" name="lado" value="izquierda">
-                </div>
-                <div>Blanco
-                    <input type="radio" name="lado" value="derecha">
-                </div>
-            </div>
-            <p>Que Producto te gustaria adquirir?</p>
-            <select name="letra" id="letra"> 
-                <option value="Taza">Taza</option>
-                <option value="Cuadro">Cuadro</option>
-                <option value="Vinilo">Vinilo</option>
-            </select>
-            <div>Quieres recibir notificaciones sobre Ofertas o Lanzamientos?
-            <input type="checkbox" name="acepta" value="1"></div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Restaurar información">
-        </form>
-    </article>
-</section>
+  <form class=" p-3 bg-$blue-200 bg-gradient">
+      <p class="fs-4 text-center">Sección de Contacto</p>
+      <div class="row mb-5">
+          <label for="inputName3" class="col-sm-2 col-form-label">Nombre</label>
+          <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputName3" required>
+          </div>
+      </div>
+      <div class="row mb-5">
+          <label for="inputSurname3" class="col-sm-2 col-form-label">Apellido</label>
+          <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputSurname3" required>
+          </div>
+      </div>
+      <div class="row mb-5">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Correo Electrónico</label>
+          <div class="col-sm-9">
+              <input type="email" class="form-control" id="inputEmail3" required>
+          </div>
+      </div>
+      <div class="row mb-5">
+          <label for="inputText3" class="col-sm-2 col-form-label">Telefono de Contacto</label>
+          <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputText3" placeholder="Número de Telefono" required>
+          </div>
+      </div>
+      <fieldset class="row mb-5">
+          <legend class="col-form-label col-sm-2 pt-0">Motivo de contacto</legend>
+          <div class="col-sm-9">
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                      Dudas con relación al envío 
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                      Consultas sobre stock 
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                      Reembolsos y Devoluciones
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                      Otro
+                  </label>
+              </div>
+          </div>
+      </fieldset>
+      <div class="row mb-5">
+          <div class="col-sm-10 offset-sm-0">
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1" required>
+                  <label class="form-check-label" for="gridCheck1">
+                      Enviar Info a Deco Dreams
+                  </label>
+              </div>
+          </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
 </main>
+
 <footer class="elFooter">
     <nav>
         <div class="iconosBox">

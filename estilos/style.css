@@ -31,6 +31,7 @@ body main{
 
 .containerindex{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -133,9 +134,9 @@ body main{
     padding-left: 10px;
 }
 
-.videito{
-    margin-left: 33%;
-
+.videocontainer{
+    display: flex;
+    justify-content: center;
 }
 
 figcaption{
@@ -373,15 +374,20 @@ figcaption{
     .hijo{  
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        max-width: 100%;
     }
     .elh2Degaleria{
         align-items: flex-end;
     }
 
+    .imagenes_galeria{
+        height: 300px;
+        width: 300px;
+    }
+
     body main{
         background-color: lightblue;
-        background-image: none;
-        width: auto;
+        max-width: 100%;  
 
     }
 }
@@ -420,7 +426,7 @@ figcaption{
 
 }
 
-@media (min-width:1558px){
+@media (min-width:1588px){
     .hijo{  
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -429,3 +435,24 @@ figcaption{
 }
 
 
+@media (min-width:720px){
+    .secciondeindex{  
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+
+}
+
+@media (max-width:720px){
+    .imagenesi{  
+        height: 300px;
+        width: 300px;
+    }
+
+    .videocontainer{
+        padding: 2rem;
+    }
+    
+
+}
