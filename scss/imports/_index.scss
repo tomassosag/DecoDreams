@@ -1,0 +1,65 @@
+.mainindex{
+    .secciondeindex{
+        display: flex;
+        background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/just-waves.png);
+        background-repeat: initial;
+        justify-content: center;
+
+        .titleindex{
+            font-family: $font-playfair;
+            border: 2px;
+            border-radius: 50%;
+            padding: 1.5rem;
+            margin: 1rem;
+            background-color: $light-cyan;
+ 
+        }                           
+
+        .imagenesi{
+            width: 85%;
+            height: 500px; 
+            margin-bottom: 30px;
+            margin-top: 30px;
+            box-shadow: 1px 3px 3px $dark-blue;
+        }
+                
+    }
+
+}
+
+.mediosdepago_index{
+    font-family: $font-segoe-ui;
+    padding: 20px;
+
+    .dream_index{
+        font-size: $font-size-xlarge;
+        text-align: center;
+        margin-right: 5%;
+        margin-top: 5px;
+        font-family: $font-playfair;
+        text-decoration: underline;
+
+        .iconosFooter{
+            padding: 5px;
+            max-width: 100%;
+            height: 60px;
+        }        
+        
+    }
+}
+
+.footer_index{
+    background-color: $light-sky-blue;
+    padding: 20px;
+
+    .informacion_index{
+        color: $black;
+        font-family: $font-segoe-ui;
+        text-decoration: solid;
+        font-size: larger;
+
+        .iconos_index{
+            display: flex;
+        }
+    }
+}

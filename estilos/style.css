@@ -60,7 +60,23 @@ body main{
     
 }
 
-.dream{
+.iconos_index{
+    display: flex;
+}
+
+.informacion_index{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    font-size: larger;
+}
+
+.footer_index{
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+.dream_index{
     font-size: x-large;
     text-align: center;
     margin-right: 5%;
@@ -70,17 +86,9 @@ body main{
 
 }
 
-.mediosdepago{
+.mediosdepago_index{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
-}
-
-
-#titulo{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    padding-bottom: 20px;
 }
 
 .nuestros{
@@ -108,22 +116,10 @@ body main{
 
 .productos{
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: larger;
     margin-top: 20px;
     margin-left: 10px;
-}
-
-.informacion{
-    color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: solid;
-    font-size: larger
-}
-
-.elFooter{
-    background-color: lightskyblue;
-    padding: 20px;
 }
 
 .parrafito{
@@ -142,10 +138,6 @@ figcaption{
     padding-left: 10px;
 }
    
-.iconosBox{
-    display: flex;
-}
-
 .iconosFooter{
     padding: 5px;
     max-width: 100%;
@@ -212,7 +204,7 @@ figcaption{
 .elh2Degaleria{
     display: grid;
     justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     text-decoration: underline;
     margin-right: 9%;
     margin-bottom: 2rem;
@@ -236,23 +228,15 @@ figcaption{
     background: -webkit-linear-gradient(rgb(179, 221, 255),rgb(119, 169, 245));
 }
 
-.imagenindex{
-    border: 2px solid wheat;
-    width: 75%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
 .secciondeProductos{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     text-align: center;
     text-decoration: underline;
     margin-bottom: 10px;
 }
 
 .sucursales{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     margin-bottom: 20px;
     font-size: x-large;
     margin-left: 10px;
@@ -269,7 +253,7 @@ figcaption{
 }
 
 .horario{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     margin-left: 10px;
     font-size: large;
     text-decoration: underline;
@@ -300,7 +284,7 @@ figcaption{
     justify-content: center;
     text-decoration: none;
     font-size: x-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     margin-left: 20px;
     
 }
@@ -310,7 +294,7 @@ figcaption{
     padding: 20px;
     align-items: center;
     font-size: x-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 .deconosotros{
@@ -455,4 +439,14 @@ figcaption{
     }
     
 
+}
+
+@media (max-width:800px){
+    .deconosotros{
+        display: none;
+    }
+
+    .sobrenosotros{
+       text-align: justify; 
+    }
 }

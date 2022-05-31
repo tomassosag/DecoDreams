@@ -1,0 +1,129 @@
+/*colors primary*/
+/*colors neutral*/
+/*typography*/
+.mainindex .secciondeindex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/just-waves.png);
+  background-repeat: initial;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainindex .secciondeindex .titleindex {
+  font-family: "Playfair Display", sans-serif;
+  border: 2px;
+  border-radius: 50%;
+  padding: 1.5rem;
+  margin: 1rem;
+  background-color: lightcyan;
+}
+
+.mainindex .secciondeindex .imagenesi {
+  width: 85%;
+  height: 500px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  -webkit-box-shadow: 1px 3px 3px #0c4e77;
+          box-shadow: 1px 3px 3px #0c4e77;
+}
+
+.mediosdepago_index {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.mediosdepago_index .dream_index {
+  font-size: x-large;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 5px;
+  font-family: "Playfair Display", sans-serif;
+  text-decoration: underline;
+}
+
+.mediosdepago_index .dream_index .iconosFooter {
+  padding: 5px;
+  max-width: 100%;
+  height: 60px;
+}
+
+.footer_index {
+  background-color: lightskyblue;
+  padding: 20px;
+}
+
+.footer_index .informacion_index {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-size: larger;
+}
+
+.footer_index .informacion_index .iconos_index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.secciondeProductos {
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.grid-container .contenedorpadre {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.grid-container .contenedorpadre .imgProducts {
+  width: 300px;
+  height: 300px;
+  border: 3px solid lightseagreen;
+}
+
+.productos-valorados .productos {
+  color: black;
+  font-family: "Playfair Display", sans-serif;
+  font-size: larger;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.productos-valorados .productos .valorados {
+  color: black;
+  margin-top: 10px;
+  font-size: large;
+  list-style-type: square;
+}
+
+.infodeProductos {
+  font-size: large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 30px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.infodeProductos .iconosproductos {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+}

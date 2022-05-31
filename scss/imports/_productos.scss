@@ -1,0 +1,62 @@
+
+
+.secciondeProductos{
+    font-family: $font-playfair;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.grid-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
+    .contenedorpadre{  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+        width: 100%;
+
+        .imgProducts{
+            width: 300px;
+            height: 300px;
+            border: 3px solid $light-sea-green;
+        }
+    }
+    
+}
+ 
+.productos-valorados{
+    .productos{
+        color: $black;
+        font-family: $font-playfair;
+        font-size: larger;
+        margin-top: 20px;
+        margin-left: 10px;
+
+        .valorados{
+            color: $black;
+            margin-top: 10px;
+            font-size: large;
+            list-style-type: square;
+        }
+        
+    }
+    
+}
+
+.infodeProductos{
+    font-size: large;
+    font-family: $font-impact;
+    margin-top: 30px;
+    color: $grey;
+    margin-left: 10px;
+
+    .iconosproductos{
+        height: 60px;
+        width: 60px;
+        margin-left: 10px;
+    }
+}
