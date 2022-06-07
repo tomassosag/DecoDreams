@@ -32,7 +32,7 @@
     padding: 20px;
 
     .dream_index{
-        font-size: $font-size-xlarge;
+        font-size: $combinada;
         text-align: center;
         margin-right: 5%;
         margin-top: 5px;
@@ -62,4 +62,14 @@
             display: flex;
         }
     }
+}
+
+@each $red, $color in $redes {
+    .iconosfooter2 #{$red}{
+        background-color: $color;
+    }
+};
+
+.titleindex{
+    @extend.titulos
 }

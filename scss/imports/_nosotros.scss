@@ -1,0 +1,25 @@
+
+.container-nosotros{
+    display: flex;
+
+    .titulonosotros{
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+
+        .parrafo-nosotros{
+            display: flex;
+            font-family: $font-playfair;
+
+            .img-nosotros{
+                display: flex;
+                padding: 10px;
+                width: 100%;
+                height: 600px;
+                display: inline-block;
+            
+            }
+            
+        }
+    }
+}

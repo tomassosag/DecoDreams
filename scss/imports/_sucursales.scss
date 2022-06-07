@@ -1,0 +1,18 @@
+.flexcontainer{
+    display: flex;
+    .h1-sucursales{
+        font-family: $font-playfair;
+        padding: 10px;
+        
+        .map{
+            margin-left: 10px;
+            box-shadow: 3px 3px 3px rgb(116, 114, 114);
+        
+        }
+        
+    }
+}
+
+.h1-sucursales{
+    @extend.titulos;
+}

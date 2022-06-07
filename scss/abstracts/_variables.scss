@@ -17,3 +17,64 @@ $font-playfair: 'Playfair Display', sans-serif;
 $font-cambria: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 $font-size-xlarge: x-large;
 
+/*mapa*/
+$redes:(
+    instagram: rgb(185, 86, 86),  
+    facebook: rgb(48, 90, 228),
+    spotify: rgb(100, 201, 100), 
+);
+@each $red, $color in $redes {
+    .iconosfooter2 #{$red}{
+        background-color: $color;
+    }
+};
+   
+/*maps*/
+$headings: (
+    h1: 4em,
+    h2: 3em,
+    h3: 2.5em,
+);
+
+$h1: map-get($headings, h1 );
+h1 {
+    font-size: $h1;
+}
+
+$colores: (
+    neutral1: black,
+    neutral2: white,
+);
+
+$combinada: map-merge($headings, $colores);
+
+/*mixin*/
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+    
+}
+
+.productos{
+    @include sizes(300, 150);
+    color: $light-cyan;
+
+}
+
+/*extend*/
+.titulos{
+    font-family: $font-playfair ;
+    color: $black;
+}
+
+.h1-sucursales{
+    @extend.titulos;
+}
+
+.titleindex{
+    @extend.titulos
+}
+
+.secciondeProductos{
+    @extend.titulos 
+}

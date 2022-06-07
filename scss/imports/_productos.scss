@@ -60,3 +60,12 @@
         margin-left: 10px;
     }
 }
+
+.productos{
+    @include sizes(300, 150);
+
+}
+
+.secciondeProductos{
+    @extend.titulos 
+}
