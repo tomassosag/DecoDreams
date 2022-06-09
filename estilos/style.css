@@ -4,25 +4,15 @@
     padding: 0;
     margin: 0;
 }
-/*
-header{
-    display: flex;
-    background: linear-gradient(45deg, lightblue 30%, rgb(146, 209, 230) 20%);
-    height: 155px;
-    padding: 20px; 
-    max-width: 100%;
-    overflow: hidden;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
-*/
+
 .lightblue{
     background: linear-gradient(45deg, lightblue 30%, rgb(146, 209, 230) 20%);
 }
+
 .lightbluex{
     background: linear-gradient(45deg, lightblue 30%, rgb(146, 209, 230) 20%);
 }
+
 body main{
     background-image: url(../img/layered-waves-haikei.svg);
     width: 100%;
@@ -31,24 +21,31 @@ body main{
     background-position: right;
 }   
 
+/*index*/
 .containerindex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-right: 1%;
 }
 
 .imagenesi{
-    width: 85%;
-    height: 500px; 
+    width: 100%;
+    height: 450px; 
     margin-bottom: 30px;
     margin-top: 30px;
-    box-shadow: 1px 3px 3px rgb(12, 78, 119);
+    box-shadow: 2px 4px 4px rgb(12, 78, 119);
+    transition: width 1s, height 1s;
+}
+
+.imagenesi:hover{
+    width: 350px;
+    height: 500px;
 }
 
 .secciondeindex{
     display: flex;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/just-waves.png);
-    background-repeat: initial;
+    background-image: url(file:///C:/Users/54379/Desktop/proyectoTomas/img/pexels-roman-odintsov-4870662.jpg);
     justify-content: center;
 }
 
@@ -58,7 +55,7 @@ body main{
     border-radius: 50%;
     padding: 1.5rem;
     margin: 1rem;
-    background-color: lightcyan;
+    background-color: rgb(208, 255, 255);
     
 }
 
@@ -76,6 +73,12 @@ body main{
 .footer_index{
     background-color: lightskyblue;
     padding: 20px;
+}
+
+.footer_indexx{
+    background-color: lightskyblue;
+    padding: 20px;
+    background-image: url(file:///C:/Users/54379/Desktop/proyectoTomas/img/pexels-roman-odintsov-4870662.jpg);
 }
 
 .dream_index{
@@ -136,6 +139,11 @@ body main{
     justify-content: center;
 }
 
+.videoindex{
+    box-shadow: 2px 4px 5px rgb(13, 162, 212);
+    margin-right: 3%;
+}
+
 figcaption{
     padding-left: 10px;
 }
@@ -149,7 +157,7 @@ figcaption{
 .iconosfooter2{
     padding: 5px;
     max-width: 100%;
-    height: 30px;
+    height: 50px;
 }
 
 .abuelo{
